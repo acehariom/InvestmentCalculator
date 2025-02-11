@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance:none;
+  margin:0;
+
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+ 
+
+  min-height: 100vh;
+  background-color: #242424;
+}
+header>h2{
+  color: whitesmoke;
+}
+#input-details{
+  margin: auto;
+  max-width: 800px;
+  background-color: green ;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+#input-details>div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+}
+
+#input-details>div>label{
+  font-size: 20px;
+  margin-bottom: 5px;
+}#input-details>div>input{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+thead th{
+  color: green;
+}
+table th{
+  padding: 5px;
+}
+table{
+  border-color: wheat;
+  border-collapse: collapse;
+  margin: 50px 0px;
+}
